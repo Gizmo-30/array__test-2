@@ -13,9 +13,11 @@ for (let i = 0; i < Infinity; i++) {
             }
         }
         console.log(`элемент ${res[1]} был удален из массива`);
-    }
-    if (input == 'stop') {
+    } else if (input == 'stop' || input == 'Stop') {
         break
+    } else {
+        alert(`Не удалось обработать команду (`);
     }
+
 }
 console.log(userInfo);
